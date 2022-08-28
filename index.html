@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock-paper-scissors</title>
+    
    
 </head>
 <body>
     <input type = "text" id ="my_input" placeholder = "Choose rock/paper/scissors">
     <br>
     <button type = "button" id = "btn1">Play</button>
-    <p class = "output" id = "out1"></p>
+    
+    <div class = "round">
+        <p> Round:</p>
+        <p class = "output" id = "out3"></p>
+    </div>
+    
+    <div class = "comp-choice">
+        <p>Computer Chose:</p>
+        <p class = "output" id = "out0"></p>
+    </div>
+
+    <div class = "my-choice">
+        <p> You Chose:</p>
+        <p class = "output" id = "out1"></p>
+    </div>
+
+    <div class = "outcome">
+        <p> Outcome:</p>
+        <p class = "output" id = "out2"></p>
+    </div>
+
+    <div class = "your-score">
+        <p> Your Score:</p>
+        <p class = "output" id = "out4"></p>
+    </div>
+
+    <div class = "comp-score">
+        <p> Computer's Score:</p>
+        <p class = "output" id = "out5"></p>
+    </div>
+    
     <script src = "script.js"></script>
     
 </body>
